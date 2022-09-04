@@ -438,3 +438,355 @@ input:focus, textarea:focus, select:focus
 {
    text-align: center;
 }
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   display: block;
+   text-align: center;
+   vertical-align: middle;
+}
+#PanelMenu1_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_panel #PanelMenu1_markup
+{
+   display: block;
+}
+#PanelMenu1_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup li a, #PanelMenu1_markup li a:hover
+{
+   padding: 10px 10px 10px 10px;
+   box-shadow: none;
+}
+#PanelMenu1_markup .divider
+{
+   height: 1px;
+   margin: 9px 0;
+   overflow: hidden;
+   background-color: #2E2E2E;
+}
+#PanelMenu1_panel
+{
+   display: none;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 250px;
+   z-index: 9999;
+}
+#PanelMenu1_markup li a
+{
+   color: #F7F7F7;
+   border: 1px solid transparent;
+   background-color: #000000;
+   font-family: "Futura PT Bold";
+   font-weight: normal;
+   font-size: 21px;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_PanelMenu1 a
+{
+   color: #F7F7F7;
+   border: 1px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   font-family: "Futura PT Bold";
+   font-weight: normal;
+   font-size: 21px;
+   font-style: normal;
+   text-decoration: none;
+   text-align: center;
+}
+#PanelMenu1_markup li a:hover
+{
+   color: #F7F7F7;
+   background-color: #000000;
+   border: 1px solid transparent;
+}
+#wb_PanelMenu1 a:hover
+{
+   color: #F7F7F7;
+   background-color: #000000;
+   border: 1px solid transparent;
+}
+#PanelMenu1_panel
+{
+   background-color: #000000;
+   overflow-y: auto;
+}
+#PanelMenu1
+{
+   padding-left: 140px;
+}
+#PanelMenu1:after
+{
+   position: absolute;
+   top: 50%;
+   left: -110px;
+   width: 250px;
+   height: 250px;
+   margin-top: -125px;
+   content: "";
+   display: block;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-image: url('images/MenuButton.png');
+}
+#PanelMenu1
+{
+   line-height: 41px;
+   width: -107px;
+   height: 41px;
+   position: absolute;
+   z-index: 999;
+}
+#PanelMenu1-logo
+{
+   border-width: 0;
+   padding: 10px 10px 10px 10px;
+   text-align: center;
+}
+#PanelMenu1-logo img
+{
+   border-width: 0;
+   height: auto;
+   max-width: 100%;
+}
+#wb_Text2
+{
+   position: absolute;
+   left: 297px;
+   top: 347px;
+   width: 426px;
+   height: 92px;
+   text-align: center;
+   z-index: 5;
+}
+#wb_Text3
+{
+   position: absolute;
+   left: 441px;
+   top: 288px;
+   width: 138px;
+   height: 31px;
+   text-align: center;
+   z-index: 6;
+}
+#wb_Image1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 1290px;
+   height: 119px;
+   z-index: 0;
+}
+#wb_Image2
+{
+   position: absolute;
+   left: 1127px;
+   top: 0px;
+   width: 792px;
+   height: 119px;
+   z-index: 1;
+}
+#wb_Image3
+{
+   position: absolute;
+   left: 23px;
+   top: 19px;
+   width: 80px;
+   height: 80px;
+   z-index: 3;
+}
+#wb_Image4
+{
+   position: absolute;
+   left: 242px;
+   top: 183px;
+   width: 537px;
+   height: 354px;
+   z-index: 4;
+}
+#wb_PanelMenu1
+{
+   position: absolute;
+   left: 142px;
+   top: 11px;
+   width: 33px;
+   height: 41px;
+   text-align: center;
+   z-index: 7;
+}
+#wb_MenuBar1
+{
+   position: absolute;
+   left: 187px;
+   top: 12px;
+   width: 517px;
+   height: 41px;
+   z-index: 2;
+}
+@media only screen and (max-width: 964px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: url('images/Background.png');
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: no-repeat;
+}
+#wb_Image1
+{
+   left: 0px;
+   top: 1px;
+   width: 1290px;
+   height: 119px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image2
+{
+   left: 1127px;
+   top: 1px;
+   width: 792px;
+   height: 119px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_MenuBar1
+{
+   left: 182px;
+   top: 12px;
+   width: 515px;
+   height: 47px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#wb_Image3
+{
+   left: 23px;
+   top: 19px;
+   width: 80px;
+   height: 80px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Image4
+{
+   left: 0px;
+   top: 146px;
+   width: 318px;
+   height: 210px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text2
+{
+   left: 41px;
+   top: 256px;
+   width: 238px;
+   height: 51px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3
+{
+   left: 90px;
+   top: 208px;
+   width: 138px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#wb_Text3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_PanelMenu1
+{
+   left: 142px;
+   top: 11px;
+   width: 35px;
+   height: 43px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+}
+#PanelMenu1
+{
+   line-height: 43px;
+   width: -105px;
+   height: 43px;
+}
+#PanelMenu1 .line:first-child
+{
+   margin-top: 13px;
+}
+#PanelMenu1_markup li a
+{
+   color: #F7F7F7;
+   border: 1px solid transparent;
+   background-color: #000000;
+   font-family: "Futura PT Bold";
+   font-weight: normal;
+   font-size: 21px;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_PanelMenu1 a
+{
+   color: #F7F7F7;
+   border: 1px solid transparent;
+   border-radius: 0px;
+   background-color: #000000;
+   font-family: "Futura PT Bold";
+   font-weight: normal;
+   font-size: 21px;
+   font-style: normal;
+   text-decoration: none;
+   text-align: center;
+}
+#PanelMenu1_markup li a:hover
+{
+   color: #F7F7F7;
+   background-color: #000000;
+   border: 1px solid transparent;
+}
+#wb_PanelMenu1 a:hover
+{
+   color: #F7F7F7;
+   background-color: #000000;
+   border: 1px solid transparent;
+}
+#PanelMenu1_panel
+{
+   background-color: #000000;
+   overflow-y: auto;
+}
+}
