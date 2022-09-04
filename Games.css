@@ -4,7 +4,7 @@ body
    background-image: url('images/Background.png');
    background-attachment: scroll;
    background-position: left top;
-   background-repeat: repeat;
+   background-repeat: no-repeat;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
