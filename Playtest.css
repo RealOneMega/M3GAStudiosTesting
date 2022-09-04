@@ -4,7 +4,7 @@ body
    background-image: url('images/Background.png');
    background-attachment: scroll;
    background-position: left top;
-   background-repeat: repeat;
+   background-repeat: no-repeat;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
@@ -35,21 +35,6 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
-#wb_Image1
-{
-   vertical-align: top;
-}
-#Image1
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Image2
 {
    vertical-align: top;
@@ -65,11 +50,54 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    height: 100%;
 }
-#wb_Image3
+#wb_Image4
 {
    vertical-align: top;
 }
-#Image3
+#Image4
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
 {
    border: 0px solid #000000;
    border-radius: 0px;
@@ -395,11 +423,11 @@ input:focus, textarea:focus, select:focus
 {
    z-index: 1111 !important;
 }
-#wb_Image4
+#wb_Image3
 {
    vertical-align: top;
 }
-#Image4
+#Image3
 {
    border: 0px solid #000000;
    border-radius: 0px;
@@ -409,32 +437,4 @@ input:focus, textarea:focus, select:focus
    top: 0;
    width: 100%;
    height: 100%;
-}
-#wb_Text1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text1 div
-{
-   text-align: left;
-}
-#wb_Text2 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: center;
-}
-#wb_Text2 div
-{
-   text-align: center;
 }
