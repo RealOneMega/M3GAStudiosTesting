@@ -8,9 +8,11 @@
 <link href="M3GABackgroun.png" rel="icon" sizes="1080x1080" type="image/png">
 <link href="M3GABackgroun.png" rel="icon" sizes="1080x1080" type="image/png">
 <link href="M3GABackgroun.png" rel="icon" sizes="1080x1080" type="image/png">
-<link href="WebsiteBuilding.css" rel="stylesheet">
+<link href="TestingSiteFIle.css" rel="stylesheet">
 <link href="About.css" rel="stylesheet">
 <script src="jscookmenu.min.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="wb.panel.min.js"></script>
 <script>
 var cmMenuBar1 =
 {
@@ -38,6 +40,12 @@ document.addEventListener('DOMContentLoaded', function(event)
    cmDrawFromText('MenuBar1', 'hur', cmMenuBar1, 'MenuBar1');
 });
 </script>
+<script>
+$(document).ready(function()
+{
+   $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'push', position: 'left', toggle: true});
+});
+</script>
 </head>
 <body>
 <div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:1290px;height:119px;z-index:0;">
@@ -46,7 +54,13 @@ document.addEventListener('DOMContentLoaded', function(event)
 <img src="images/Header2.png" id="Image2" alt="" width="793" height="117"></div>
 <div id="wb_Image3" style="position:absolute;left:23px;top:19px;width:80px;height:80px;z-index:2;">
 <img src="images/M3GAWhite.png" id="Image3" alt="" width="80" height="80"></div>
-<div id="wb_MenuBar1" style="position:absolute;left:154px;top:12px;width:517px;height:41px;z-index:3;">
+<div id="wb_Image4" style="position:absolute;left:242px;top:183px;width:537px;height:354px;z-index:3;">
+<img src="images/ErrorMessage.png" id="Image4" alt="" width="537" height="354"></div>
+<div id="wb_Text2" style="position:absolute;left:297px;top:346px;width:426px;height:92px;text-align:center;z-index:4;">
+<span style="color:#FFFFFF;font-family:'Futura PT Bold';font-size:24px;">The M3GA Studios website is currently under development. You may experience issues on any platform. </span></div>
+<div id="wb_Text3" style="position:absolute;left:441px;top:288px;width:138px;height:31px;text-align:center;z-index:5;">
+<span style="color:#FFFFFF;font-family:'Futura PT Bold';font-size:24px;">Beware!</span></div>
+<div id="wb_MenuBar1" style="position:absolute;left:187px;top:12px;width:517px;height:41px;z-index:6;">
 <div id="MenuBar1">
 <ul style="display:none;">
    <li><span></span><a href="./index.html" target="_self">Home</a>
@@ -64,11 +78,19 @@ document.addEventListener('DOMContentLoaded', function(event)
 </ul>
 </div>
 </div>
-<div id="wb_Image4" style="position:absolute;left:242px;top:183px;width:537px;height:354px;z-index:4;">
-<img src="images/ErrorMessage.png" id="Image4" alt="" width="537" height="354"></div>
-<div id="wb_Text2" style="position:absolute;left:297px;top:346px;width:426px;height:92px;text-align:center;z-index:5;">
-<span style="color:#FFFFFF;font-family:'Futura PT Bold';font-size:24px;">The M3GA Studios website is currently under development. You may experience issues on any platform. </span></div>
-<div id="wb_Text3" style="position:absolute;left:441px;top:288px;width:138px;height:31px;text-align:center;z-index:6;">
-<span style="color:#FFFFFF;font-family:'Futura PT Bold';font-size:24px;">Beware!</span></div>
+<div id="wb_PanelMenu1" style="position:absolute;left:142px;top:11px;width:33px;height:41px;text-align:center;z-index:7;">
+<a href="#PanelMenu1_markup" id="PanelMenu1">&nbsp;</a>
+<div id="PanelMenu1_markup">
+   <div id="PanelMenu1-logo"><img alt="" src="images/Placeholder.png"></div>
+<ul role="menu">
+   <li role="menuitem"><a href="./index.html" title="Home" class="nav-link">Home</a></li>
+   <li role="menuitem"><a href="./Games.html" title="Games" class="nav-link">Games</a></li>
+   <li role="menuitem"><a href="./About.html" title="About" class="nav-link">About</a></li>
+   <li role="menuitem"><a href="./Blog.html" title="Blog" class="nav-link">Blog</a></li>
+   <li role="menuitem"><a href="./Playtest.html" title="Playtest" class="nav-link">Playtest</a></li>
+   <li role="menuitem"><a href="./Store.html" title="Store" class="nav-link">Store</a></li>
+</ul>
+</div>
+</div>
 </body>
 </html>
