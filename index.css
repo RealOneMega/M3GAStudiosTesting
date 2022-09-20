@@ -674,8 +674,8 @@ body
 #wb_Image5
 {
    left: 0px;
-   top: 1px;
-   width: 320px;
+   top: 0px;
+   width: 480px;
    height: 118px;
    visibility: visible;
    display: inline;
@@ -766,7 +766,7 @@ body
 }
 #wb_PanelMenu1
 {
-   left: 268px;
+   left: 264px;
    top: 8px;
    width: 35px;
    height: 43px;
