@@ -729,8 +729,8 @@ body
 {
    left: 0px;
    top: 146px;
-   width: 318px;
-   height: 210px;
+   width: 388px;
+   height: 255px;
    visibility: visible;
    display: inline;
    margin: 0;
@@ -738,8 +738,8 @@ body
 }
 #wb_Text2
 {
-   left: 41px;
-   top: 256px;
+   left: 75px;
+   top: 261px;
    width: 238px;
    height: 51px;
    visibility: visible;
@@ -752,8 +752,8 @@ body
 }
 #wb_Text3
 {
-   left: 90px;
-   top: 208px;
+   left: 125px;
+   top: 224px;
    width: 138px;
    height: 31px;
    visibility: visible;
