@@ -35,6 +35,21 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
+#wb_Image5
+{
+   vertical-align: top;
+}
+#Image5
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #wb_Image1
 {
    vertical-align: top;
@@ -423,21 +438,6 @@ input:focus, textarea:focus, select:focus
 {
    z-index: 1111 !important;
 }
-#wb_Image5
-{
-   vertical-align: top;
-}
-#Image5
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_PanelMenu1 a, #PanelMenu1_markup li a
 {
    display: block;
@@ -584,7 +584,7 @@ input:focus, textarea:focus, select:focus
    width: 426px;
    height: 92px;
    text-align: center;
-   z-index: 3;
+   z-index: 4;
 }
 #wb_Text3
 {
@@ -594,7 +594,7 @@ input:focus, textarea:focus, select:focus
    width: 138px;
    height: 31px;
    text-align: center;
-   z-index: 4;
+   z-index: 5;
 }
 #wb_Image1
 {
@@ -603,7 +603,7 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 1290px;
    height: 119px;
-   z-index: 0;
+   z-index: 1;
 }
 #wb_Image2
 {
@@ -612,7 +612,7 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 793px;
    height: 119px;
-   z-index: 1;
+   z-index: 2;
 }
 #wb_Image3
 {
@@ -630,7 +630,7 @@ input:focus, textarea:focus, select:focus
    top: 183px;
    width: 537px;
    height: 354px;
-   z-index: 2;
+   z-index: 3;
 }
 #wb_Image5
 {
@@ -640,7 +640,7 @@ input:focus, textarea:focus, select:focus
    width: 521px;
    height: 179px;
    visibility: hidden;
-   z-index: 6;
+   z-index: 0;
 }
 #wb_PanelMenu1
 {
@@ -659,7 +659,7 @@ input:focus, textarea:focus, select:focus
    top: 12px;
    width: 517px;
    height: 41px;
-   z-index: 5;
+   z-index: 6;
 }
 @media only screen and (max-width: 964px)
 {
@@ -670,6 +670,17 @@ body
    background-attachment: scroll;
    background-position: left top;
    background-repeat: no-repeat;
+}
+#wb_Image5
+{
+   left: 0px;
+   top: 0px;
+   width: 403px;
+   height: 118px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
 }
 #wb_Image1
 {
@@ -741,17 +752,6 @@ body
    visibility: hidden;
    display: none;
    margin: 0;
-}
-#wb_Image5
-{
-   left: 0px;
-   top: 0px;
-   width: 480px;
-   height: 118px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
 }
 #wb_PanelMenu1
 {

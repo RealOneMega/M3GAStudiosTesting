@@ -35,6 +35,21 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
+#wb_Image3
+{
+   vertical-align: top;
+}
+#Image3
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
 #wb_Image8
 {
    vertical-align: top;
@@ -496,21 +511,6 @@ input:focus, textarea:focus, select:focus
 {
    z-index: 1111 !important;
 }
-#wb_Image3
-{
-   vertical-align: top;
-}
-#Image3
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Image7
 {
    vertical-align: top;
@@ -656,7 +656,7 @@ input:focus, textarea:focus, select:focus
    top: 701px;
    width: 250px;
    height: 31px;
-   z-index: 3;
+   z-index: 4;
 }
 #wb_Text2
 {
@@ -665,7 +665,7 @@ input:focus, textarea:focus, select:focus
    top: 701px;
    width: 250px;
    height: 31px;
-   z-index: 5;
+   z-index: 6;
 }
 #wb_Text3
 {
@@ -674,7 +674,7 @@ input:focus, textarea:focus, select:focus
    top: 301px;
    width: 31px;
    height: 24px;
-   z-index: 8;
+   z-index: 9;
 }
 #wb_Image1
 {
@@ -683,7 +683,7 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 1290px;
    height: 119px;
-   z-index: 1;
+   z-index: 2;
 }
 #wb_Text4
 {
@@ -692,7 +692,7 @@ input:focus, textarea:focus, select:focus
    top: 494px;
    width: 56px;
    height: 24px;
-   z-index: 9;
+   z-index: 10;
 }
 #wb_Image2
 {
@@ -701,7 +701,7 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 793px;
    height: 119px;
-   z-index: 2;
+   z-index: 3;
 }
 #wb_Image3
 {
@@ -711,7 +711,7 @@ input:focus, textarea:focus, select:focus
    width: 521px;
    height: 179px;
    visibility: hidden;
-   z-index: 11;
+   z-index: 0;
 }
 #wb_Image4
 {
@@ -720,7 +720,7 @@ input:focus, textarea:focus, select:focus
    top: 118px;
    width: 359px;
    height: 621px;
-   z-index: 4;
+   z-index: 5;
 }
 #wb_Image5
 {
@@ -729,7 +729,7 @@ input:focus, textarea:focus, select:focus
    top: 357px;
    width: 157px;
    height: 90px;
-   z-index: 6;
+   z-index: 7;
 }
 #wb_Image6
 {
@@ -738,7 +738,7 @@ input:focus, textarea:focus, select:focus
    top: 325px;
    width: 177px;
    height: 177px;
-   z-index: 7;
+   z-index: 8;
 }
 #wb_Image7
 {
@@ -766,7 +766,7 @@ input:focus, textarea:focus, select:focus
    top: 118px;
    width: 359px;
    height: 621px;
-   z-index: 0;
+   z-index: 1;
 }
 #wb_MenuBar1
 {
@@ -775,7 +775,7 @@ input:focus, textarea:focus, select:focus
    top: 12px;
    width: 517px;
    height: 41px;
-   z-index: 10;
+   z-index: 11;
 }
 @media only screen and (max-width: 964px)
 {
@@ -787,10 +787,21 @@ body
    background-position: left top;
    background-repeat: no-repeat;
 }
+#wb_Image3
+{
+   left: 0px;
+   top: 0px;
+   width: 403px;
+   height: 118px;
+   visibility: visible;
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
 #wb_Image8
 {
-   left: 35px;
-   top: 148px;
+   left: 71px;
+   top: 146px;
    width: 251px;
    height: 399px;
    visibility: visible;
@@ -822,8 +833,8 @@ body
 }
 #wb_Text1
 {
-   left: 45px;
-   top: 507px;
+   left: 81px;
+   top: 505px;
    width: 250px;
    height: 31px;
    visibility: visible;
@@ -836,8 +847,8 @@ body
 }
 #wb_Image4
 {
-   left: 35px;
-   top: 556px;
+   left: 71px;
+   top: 554px;
    width: 251px;
    height: 399px;
    visibility: visible;
@@ -847,8 +858,8 @@ body
 }
 #wb_Text2
 {
-   left: 41px;
-   top: 921px;
+   left: 77px;
+   top: 919px;
    width: 250px;
    height: 31px;
    visibility: visible;
@@ -861,8 +872,8 @@ body
 }
 #wb_Image5
 {
-   left: 82px;
-   top: 710px;
+   left: 118px;
+   top: 708px;
    width: 157px;
    height: 90px;
    visibility: visible;
@@ -872,8 +883,8 @@ body
 }
 #wb_Image6
 {
-   left: 72px;
-   top: 259px;
+   left: 108px;
+   top: 257px;
    width: 177px;
    height: 177px;
    visibility: visible;
@@ -883,8 +894,8 @@ body
 }
 #wb_Text3
 {
-   left: 145px;
-   top: 235px;
+   left: 181px;
+   top: 233px;
    width: 31px;
    height: 24px;
    visibility: visible;
@@ -897,8 +908,8 @@ body
 }
 #wb_Text4
 {
-   left: 132px;
-   top: 428px;
+   left: 168px;
+   top: 426px;
    width: 56px;
    height: 24px;
    visibility: visible;
@@ -918,17 +929,6 @@ body
    visibility: hidden;
    display: none;
    margin: 0;
-}
-#wb_Image3
-{
-   left: 0px;
-   top: 0px;
-   width: 480px;
-   height: 118px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-   padding: 0;
 }
 #wb_Image7
 {
